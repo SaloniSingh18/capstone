@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,900&display=swap');
+
+:root{
+    --gradient: linear-gradient(93.58deg, #3FC7F4 0%, #29B67F 100%);
+    --cyan: #15d7bd;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+    box-sizing: border-box;
+}
+nav ul, footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: .1em .5em;
+}
+
+.us, .about{
+    display: none;
+    /* visibility: hidden; */
+}
+.register{
+    padding: 0.5em 0.3em;
+    background: var(--gradient);
+    border-radius: 0.3em;
+}
+.register a{
+    color: white;
+    font-size: .9em;
+} 
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(238, 238, 238);
+    padding: 1em 0.5em;
+}
+.top .title h1{
+    padding-right: 3em;
+    text-transform: capitalize;
+    font-size: 2em;
+}
+.heading{
+    display: inline-block;
+    color: var(--cyan);
+}
+.top .title{
+    margin-bottom: 2em;
+}
+.top .para{
+    font-size: 1.5em;
+    color: grey;
+}
+.top{
+    margin:  2.5em 2em 1em 2em;
+}
+.contact h1{
+    font-size: 2em;
+    font-weight: 300;
+}
+.free{
+    font-weight: 500;
+    color: var(--cyan);
+
+}
+
+input{
+    border: 0;
+    border-bottom: .1em solid rgb(182, 182, 182);
+    margin: 1em auto;
+}
+.cancel{
+    font-size: 1em;
+    padding: .2em .5em;
+    color: white;
+    background-color: rgb(194, 190, 190);
+    border-radius:.2em;
+    border: 0;
+}
+.submit{
+    font-size: 1em;
+    padding: .2em .5em;
+    color: white;
+    border-radius:.2em;
+    border: 0;
+    background: var(--gradient);
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .5em;
+}
+.sign-in{
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--cyan);
+}
+.contact{
+    margin: auto 5em;
+    text-align: center;
+    border-radius: 2em;
+    box-shadow: 0em 0.1em .09em rgb(192, 192, 192);
+    padding: 1em 2em;
+    margin-bottom: 1em;
+}
+.contact p{
+    font-size: .8em;
+    font-weight: 400;
+    color: grey;
+    padding: 2em 0 1em 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.frame img{
+    display: block;
+    width: 200px;
+    margin: auto auto;
+}
+
+.frame h2{
+    font-size: 1.6em;
+    text-align: center;
+    text-transform: none;
+    padding: 0.5em 0em;
+}
+
+.frame .para{
+    font-size: 1.2em;
+    color: grey;
+    text-align: center;
+}
+
+.frame{
+    padding: 1em 5em;
+}
+
+.box1 h2, .box1 .heading{
+    color: white;
+    text-align: center;
+}
+.box1 h2{
+    padding: 1em 0 .5em 0;
+}
+
+.box1 img{
+    width: 300px;
+    border-radius: 9em;
+    background: white;
+    display: block;
+    margin: auto auto;
+}
+.box1 .para{
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+}
+.box1{
+    padding: 2em 0;
+    background: var(--gradient);
+}
+.content1{
+    padding: 0 5em;
+}
+
+
+.sign-up{
+    background: var(--gradient);
+    border-radius: 0.8em;
+    display: inline-block;
+    padding: .5em 2em;
+}
+.sign-up a{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+} 
+
+.box2 h2, .box2 .heading{
+    color: grey;
+    text-align: center;
+}
+.box2 h2{
+    padding: 1em 0 .5em 0;
+}
+
+.box2 .para{
+    font-size: 1.2em;
+    color: rgb(151, 151, 151);
+    text-align: center;
+    padding-bottom: 1em;
+}
+.box2 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 5em;
+    background-color: white;
+}
+
+.content{
+    padding: 0 5em;
+}
+
+
+.box3 h2, .box3 .heading{
+    color: white;
+    text-align: center;
+}
+.box3 h2{
+    padding: 1em 0 .5em 0;
+}
+
+.box3 img{
+    width: 300px;
+    border-radius: 9em;
+    background: white;
+    display: block;
+    margin: auto auto;
+}
+
+.box3 .para{
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+}
+
+.box3{
+    padding: 2em 0;
+    background: linear-gradient(101.13deg, #090736 1.15%, #172233 98.16%);
+}
+.box4{
+    padding: 2em 0;
+    background: linear-gradient(282.48deg, #39B7FD -5.5%, #000000 60.76%);
+}
+
+.box4 h2, .box4 .heading{
+    color: white;
+    text-align: center;
+}
+.box4 h2{
+    padding: 1em 0 .5em 0;
+}
+
+.box4 img{
+    width: 300px;
+    display: block;
+    margin: auto auto;
+}
+
+.box4 .para{
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    color: grey;
+    font-size: 1.2em;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(238, 238, 238);
+    padding: 1em 2em;
+}
+
+.icon{
+    display: block;
+    margin: auto auto;
+    width: 50%;
+}
+
+
+footer p{
+    color: grey;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.tc a{
+    padding: 0 2.4em;
+}
+
+.para2{
+    display: none;
+}
+
+@media only screen and (min-width: 768px){
+    .register{
+        font-size: 1.5em;
+    }
+    .us, .about{
+        font-size: 1.5em;
+        display: block;
+        padding: 0 1em;
+    }
+
+    nav img{
+        visibility: hidden;
+    }
+    .top{
+        padding: 0 5%;
+        display: inline-block;
+        width: 35%;
+    }
+    .contact{
+        display: inline-block;
+        width: 25%;
+    }
+    .buttons , .contact p{
+        display: block;
+    }
+    .frame{
+        display: inline-block;
+        width: 40%;
+        margin-left: 50px;
+    }
+    .box1 .container{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        padding: 0 5em;
+    }
+    .content1{
+        font-size: 1.5em;
+        width: 70%;
+    }
+    .box1 h2, .box1 p{
+        text-align: left;
+    }
+    .box2{
+        font-size: 1.5em;
+        margin: auto;
+        width: 90%;
+        padding: 1em;
+    }
+    .box3 .container{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        padding: 0 5em;
+    }
+
+    .box3 .title, .box4 .title{
+        display: none;
+    }
+    .content{
+        font-size: 1.5em;
+        width: 70%;
+    }
+    
+    .box3 h2, .box3 p{
+        text-align: left;
+    }
+    .box4 .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 4em 5em;
+    }
+    .para2{
+        display: block;
+        font-size: 1.2em;
+        color: white;
+        font-weight: 900;
+    }
+    .content .para{
+        font-size: 1em;
+        font-weight: 300;
+    }
+    .box4 h2, .box4 p{
+        text-align: left;
+    }
+
+    footer .container{
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
+    footer .container .icon{
+        width: 0;
+    }
+    footer .container ul{
+        padding-right: 10%;
+    }
+}
